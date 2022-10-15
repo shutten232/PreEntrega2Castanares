@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+/* -------------HEADER---------------- */
+/* .grid{
+    display: grid;
+    width: 800px;
+    height: 400px;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "..... caja2 caja2 caja" 
+    "caja1 caja3 caja4 caja5"
+    "caja1 caja3 caja6 caja6"
+    ;
+    
+    
+}
+
+.cajas{
+    border: 2px solid red   ;
+}
+
+.caja1{
+    grid-area: caja1;
+}
+.caja2{
+    grid-area: caja2;
+}
+.caja3{
+    grid-area: caja3;
+}
+.caja4{
+    grid-area: caja4;
+}
+.caja5{
+    grid-area: caja5;
+}
+.caja6{
+    grid-area: caja6;
+} */
+/* ----------------------------inicio----------------- */
+.caja{
+    border: 1px solid rgba(128, 128, 128, 0.329);
+    list-style: none;
+}
+
+.grid{
+    display: grid;
+    width: 100%;
+    height:100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "caja1 caja1 caja1 caja1"
+    "caja1 caja1 caja1 caja1"
+    "caja2 caja2 caja2 caja2"
+    "caja2 caja2 caja2 caja2"
+    "caja3 caja3 caja4 caja4";
+}
+
+.caja1{
+    grid-area: caja1;
+    background-color: blue;
+    background-image: url(../img/mhrise.PNG);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+    }
+
+
+.caja2{
+    grid-area: caja2;
+    background-color: aqua;
+    background-image: url(../img/sunbreak.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.caja3{
+    grid-area: caja3;
+    background-color: chartreuse;
+    background-image: url(../img/Nintendo_Switch_logo\,_horizontal.png);
+    background-size: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: red;
+}
+
+.caja4{
+    grid-area: caja4;
+    background-color: chartreuse;
+    background-image: url(../img/steam.png);
+    background-size:250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+}
+
+.contenedor1{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 2ex;
+    width: 200px;
+    height: 50px;
+    background-color: rgba(220, 20, 60, 0.233);
+    box-shadow: 10px 10px 67px 8px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 67px 8px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 67px 8px rgba(0,0,0,0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.contenedor2{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 2ex;
+    width: 300px;
+    height: 50px;
+    background-color: rgba(220, 20, 60, 0.233);
+    box-shadow: 10px 10px 67px 8px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 67px 8px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 67px 8px rgba(0,0,0,0.75);
+display: flex;
+align-items: center;
+justify-content: center;
+    
+    
+}
+
+
+
+.textc1{
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+    size: 100px;
+    
+}
+
+@media (min-width: 700px) {
+    .grid{
+        display: grid;
+        width: 100%;
+        height:100vh;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "caja1 caja1 caja2 caja2"
+        "caja1 caja1 caja2 caja2"
+        "caja1 caja1 caja2 caja2"
+        "caja1 caja1 caja2 caja2"
+        "caja3 caja3 caja4 caja4"
+        "caja3 caja3 caja4 caja4";
+    }
+}
+
+/* ---------------inicio----------------- */
+
+/* ---------pagina sunbreak---------- */
+.gridsunbreak{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1.5fr 0.2fr 0.5fr 1fr 1fr;
+    grid-template-areas: 
+    "cajasun1 cajasun1 cajasun1 cajasun1 cajasun1"
+    "cajasun2 cajasun2 cajasun2 cajasun2 cajasun2"
+    "cajasun3 cajasun3 cajasun3 cajasun3 cajasun3"
+    "cajasun4 cajasun4 cajasun4 cajasun4 cajasun4"
+    "cajasun5 cajasun5 cajasun5 cajasun5 cajasun5";
+}
+
+
+.s1{
+    grid-area: cajasun1;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.s2{
+
+}
+
+.s3{
+    grid-area: cajasun3;
+    background: linear-gradient(135deg, #c25445 0%, #cc2828 50%, #c74d4d 100%);
+    background-size: 100%;
+    font-size: 4vw;
+    letter-spacing: normal;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border: 2px solid black;
+}
+
+.s4{
+    background-image: url(../img/mituz.JPG);
+    grid-area: cajasun4;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid black;
+}
+
+.s5{
+    grid-area: cajasun5;
+    background: linear-gradient(135deg, #c25445 0%, #cc2828 50%, #c74d4d 100%);
+    background-size: 100%;
+    font-size: 4vw;
+    letter-spacing: normal;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border: 2px solid black;
+}
+
+.center{
+    text-align: center;
+    padding: 7px;
+    font-size: 6vw;
+}
+.cajasun2{
+    grid-area:cajasun2;
+    background: linear-gradient(135deg, #0c0c0c 0%, #eb3333 50%, #272727 100%);
+    background-size: 100%;
+    font-size: 6vw;
+    letter-spacing: normal;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+
+body{
+    background-color: #eb3333;
+}
+
+
+    @media (min-width: 800px) {
+.gridsunbreak{
+    display: grid;
+    width: 100%;;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "cajasun1 cajasun1 cajasun1 caja1sun1"
+    ;
+    }
+.s1{
+    grid-area: cajasun1;
+    border: 1px solid black;
+}
+
+.s2{
+
+}
+
+.s3{
+    grid-area: cajasun3;
+    background: linear-gradient(135deg, #c25445 0%, #cc2828 50%, #c74d4d 100%);
+    background-size: 100%;
+    font-size: 1vw;
+    letter-spacing: normal;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border: 2px solid black;
+}
+
+.s4{
+    background-image: url(../img/mituz.JPG);
+    grid-area: cajasun4;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid black;
+}
+
+.s5{
+    grid-area: cajasun5;
+    background: linear-gradient(135deg, #c25445 0%, #cc2828 50%, #c74d4d 100%);
+    background-size: 100%;
+    font-size: 1vw;
+    letter-spacing: normal;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border: 2px solid black;
+}
+
+.center{
+    text-align: center;
+    padding: 7px;
+    font-size: 1vw;
+}
+.cajasun2{
+    grid-area:cajasun2;
+    background: linear-gradient(135deg, #0c0c0c 0%, #eb3333 50%, #272727 100%);
+    background-size: 100%;
+    font-size: 1vw;
+    letter-spacing: normal;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
+}
